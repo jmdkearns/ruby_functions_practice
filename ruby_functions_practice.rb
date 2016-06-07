@@ -52,6 +52,13 @@ def number_to_short_month_name(number)
     end
   end
 
+def length_of_cube_side(length)
+  return length ** 3
+end
+
+def sphere_radius(radius)
+  return Math::PI * 4/3 *  (radius**3)
+end 
 
 
 
